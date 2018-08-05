@@ -1,0 +1,15 @@
+title: Chipprogrammer
+author: Arun K Soman
+url: "https://chipprogrammers.github.io"
+baseurl: "/amplify"
+logo: "/static/img/chip.svg"
+markdown: kramdown
+disqusEmbedd: "https://chipprogrammers.github.io/disqus-amp/"
+
+google-analytics: UA-89660760-3
+data-ad-client: 7300212199014697
+data-ad-slot: 6015597877
+paginate: 4
+paginate_path: "/blog/page:num/"
+gems: [jekyll-paginate, jekyll-gist]
+disqus_shortname: https-chipprogrammers-github-io-pimate
