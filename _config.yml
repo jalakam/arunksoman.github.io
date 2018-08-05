@@ -1,7 +1,7 @@
 title: Chipprogrammer
 author: Arun K Soman
-url: "https://chipprogrammers.github.io"
-baseurl: "/amplify"
+url: "https://arunksoman.github.io"
+baseurl: "/"
 logo: "/static/img/chip.svg"
 markdown: kramdown
 disqusEmbedd: "https://chipprogrammers.github.io/disqus-amp/"
