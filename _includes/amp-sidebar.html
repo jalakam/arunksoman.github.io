@@ -1,0 +1,45 @@
+<amp-sidebar side="right" id="header-sidebar" class="ampstart-sidebar px3  " layout="nodisplay">
+  <div class="flex justify-start items-center ampstart-sidebar-header">
+    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
+  </div>
+  <nav class="ampstart-sidebar-nav ampstart-nav">
+    <ul class="list-reset m0 p0 ampstart-label">
+          <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
+
+<!-- Start Dropdown-inline -->
+<amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
+  <section>
+    <header>Photography</header>
+    <ul class="ampstart-dropdown-items list-reset m0 p0">
+        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Animals</a></li>
+        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Landscape</a></li>
+    </ul>
+  </section>
+</amp-accordion>
+<!-- End Dropdown-inline -->
+          </li>
+          <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
+
+<!-- Start Dropdown-inline -->
+<amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
+  <section>
+    <header>Travel</header>
+    <ul class="ampstart-dropdown-items list-reset m0 p0">
+        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Europe</a></li>
+        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">USA</a></li>
+    </ul>
+  </section>
+</amp-accordion>
+<!-- End Dropdown-inline -->
+          </li>
+    </ul>
+  </nav>
+  {% include sidebar-social.html %}
+    <ul class="ampstart-sidebar-faq list-reset m0">
+       {% for x in site.data.navbar %}
+          <li class="ampstart-faq-item"><span class="fa fa-{{ x.icon }}"></span><a href="{{ x.link }}" class="text-decoration-none"> {{ x.menu }}</a></li>
+       {% endfor %}
+    </ul>
+</amp-sidebar>
+<!-- End Sidebar -->
+  <!-- End Navbar -->

@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+    <h1 class="w3-xlarge">Articles by category: {{ page.categories }}</h1>
+    <hr />
+    {% for category in site.categories %}
+        {% capture category_slug %}{{ category | first }}{% endcapture %}
+        {% for c_slug in category_slug %}
+            {% if c_slug == page.categories %}
+                <button class="button read-more">{{ c_slug | replace: '_' , ' ' }}</button>
+            {% else %}
+                <a href="{{ site.url }}{{site.baseurl}}/category/{{ c_slug }}" class="button read-more">{{ c_slug | replace: '_',' ' }}</a>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    <hr />
+    {% if site.categories[page.categories] %}
+        {% for post in site.categories[page.categories] %}
+         <div class="container">
+               {% if post.img_url == true %}
+                 <figure class="figure figure-left">
+                     <amp-img src="{{ post.img }}" alt="post-img" height="200" width="320" layout="intrinsic"></amp-img>
+                 </figure>
+              {% else %}
+                 <figure class="figure figure-left">
+                    <amp-img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" height="200" width="320" layout="intrinsic"></amp-img>
+                 </figure>
+              {% endif %}
+         </div>
+    <h3><b>{{ post.title }}</b></h3>
+      {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% if forloop.first %}
+      {% endif %} 
+            {% if forloop.first == false %}
+                {% assign previous_index = forloop.index0 | minus: 1 %}
+                {% capture previous_post_year %}{{ site.categories[page.categories][previous_index].date | date: '%Y' }}{% endcapture %}
+                {% if post_year != previous_post_year %}
+                {% endif %}
+            {% endif %}
+           <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}
+             </span><span class="w3-tag w3-gray" style="text-decoration:none;transform:rotate(-5deg)"><a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"><i class="fas fa-folder"></i> {{ post.category | replace:'_',' ' }}</a></span>
+            <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+            <a href="{{ post.url |prepend:site.baseurl }}" class="button read-more">Read More</a>
+            <hr />
+{% endfor %}
+</div>                                                                      
+    {% else %}
+<p>There are no posts in this categories.</p>
+    {% endif %}

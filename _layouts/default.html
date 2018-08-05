@@ -1,0 +1,29 @@
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+ {% include head.html %}
+ {% include custom-style-min.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    {% include amp-sidebar.html %}
+    {% include hero-header.html %}
+    {% include analytics.html %}
+    <div class="clearfix">
+  <div class="sm-col sm-col-10">
+     <main id="content" role="main">
+     <article class="photo-article m3">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+       {% include my-amp-ads.html %}
+    </article>
+   </main>
+ </div>
+  <div class="sm-col sm-col-2">
+      second grid
+    {% include auto-ads.html %}
+  </div>
+</div>
+    {% include footer.html %}
+  </body>
+</html>

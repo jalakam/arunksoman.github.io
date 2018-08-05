@@ -1,0 +1,23 @@
+- menu: Home
+  link: http://chipprogrammers.github.io
+  icon: home
+ 
+- menu: Blog
+  link: https://chipprogrammers.github.io/blog
+  icon: pencil
+
+- menu: Docs
+  link: https://chipprogrammers.github.io/Documentation
+  icon: file-text
+  
+- menu: Github
+  link: http://github.com/chipprogrammers
+  icon: github
+  
+- menu: Resume
+  link: http://chipprogrammers.github.io/online-cv
+  icon: graduation-cap
+
+- menu: Sitemap
+  link: https://chipprogrammers.github.io/sitemap.xml
+  icon: rss

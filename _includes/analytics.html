@@ -1,0 +1,19 @@
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "{{ site.google-analytics }}"
+  },
+  "triggers": {
+    "trackPageviewWithCustomUrl": {
+      "on": "visible",
+      "request": "pageview",
+      "vars": {
+        "title": "{{ page.title }}",
+        "documentLocation": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"
+      }
+    }
+  }
+}
+</script>
+</amp-analytics>
