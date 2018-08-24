@@ -1,17 +1,17 @@
 - menu: Home
-  link: http://chipprogrammers.github.io
+  link: http://arunksoman.github.io
   icon: home
  
 - menu: Blog
-  link: https://chipprogrammers.github.io/blog
+  link: https://arunksoman.github.io/blog
   icon: pencil
 
 - menu: Docs
-  link: https://chipprogrammers.github.io/Documentation
+  link: https://arunksoman.github.io/Documentation
   icon: file-text
   
 - menu: Github
-  link: http://github.com/chipprogrammers
+  link: http://github.com/arunksoman
   icon: github
   
 - menu: Resume
@@ -19,5 +19,5 @@
   icon: graduation-cap
 
 - menu: Sitemap
-  link: https://chipprogrammers.github.io/sitemap.xml
+  link: https://arunksoman.github.io/sitemap.xml
   icon: rss
