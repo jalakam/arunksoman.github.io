@@ -9,24 +9,10 @@
 <!-- Start Dropdown-inline -->
 <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
   <section>
-    <header>Photography</header>
+    <header>Popular Categories</header>
     <ul class="ampstart-dropdown-items list-reset m0 p0">
-        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Animals</a></li>
-        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Landscape</a></li>
-    </ul>
-  </section>
-</amp-accordion>
-<!-- End Dropdown-inline -->
-          </li>
-          <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
-
-<!-- Start Dropdown-inline -->
-<amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
-  <section>
-    <header>Travel</header>
-    <ul class="ampstart-dropdown-items list-reset m0 p0">
-        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Europe</a></li>
-        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">USA</a></li>
+        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Electronics</a></li>
+        <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Mathematics</a></li>
     </ul>
   </section>
 </amp-accordion>
@@ -34,12 +20,13 @@
           </li>
     </ul>
   </nav>
-  {% include sidebar-social.html %}
+  
     <ul class="ampstart-sidebar-faq list-reset m0">
        {% for x in site.data.navbar %}
           <li class="ampstart-faq-item"><span class="fa fa-{{ x.icon }}"></span><a href="{{ x.link }}" class="text-decoration-none"> {{ x.menu }}</a></li>
        {% endfor %}
     </ul>
+  {% include sidebar-social.html %}
 </amp-sidebar>
 <!-- End Sidebar -->
   <!-- End Navbar -->
