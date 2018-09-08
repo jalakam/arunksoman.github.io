@@ -85,17 +85,19 @@ while True:
 ## Image Floating Test
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis quam vitae ipsum vehicula laoreet eget et turpis. Fusce dapibus vel magna in interdum. Sed euismod luctus lectus et fermentum. Sed efficitur tempor dui. Nulla malesuada risus nec mauris condimentum tempor. Phasellus nulla dolor, condimentum ut sollicitudin non, mattis mattis ipsum. Cras pharetra mi eu mauris aliquet, dignissim faucibus sapien lacinia. Cras at mi nisl. Phasellus ex ipsum, mattis vehicula egestas vehicula, pulvinar nec lorem. Phasellus accumsan lobortis magna, eu condimentum felis. Proin blandit est id nulla efficitur scelerisque. In vehicula nisi vel sapien venenatis, accumsan gravida ex fringilla. Mauris ac consectetur nibh.
-<figure class="figure figure-right">
+<!--<figure class="figure figure-right">
 <amp-img src="https://unsplash.it/300/400?image=123" alt="chipprogrammer" width="320" height="200" layout="intrinsic"></amp-img>
   <figcaption>This image has a caption</figcaption>
-</figure>
+</figure>-->
+{% include image.html position="right" link="https://unsplash.it/300/400?image=123" altText="img" layout="intrinsic" caption="image pulled right" %}
 Etiam gravida risus nec ligula dictum ornare scelerisque vestibulum nulla. In eu dui hendrerit, hendrerit arcu in, fringilla turpis. Duis porttitor eros ut lacus tristique pulvinar. Aliquam rhoncus et elit non vulputate. Ut blandit id leo id bibendum. Nullam vel luctus mi. Mauris aliquam sem metus, et congue leo blandit at. Donec sit amet tortor justo. Proin pellentesque at risus in faucibus. Fusce ac augue non elit sollicitudin fermentum in vitae enim. Aenean eget iaculis risus. Pellentesque ultrices felis at dui ornare, at venenatis quam tincidunt.
 
 Vestibulum viverra rutrum quam sit amet egestas. Aliquam venenatis nisi eu rhoncus laoreet. Donec convallis tellus tellus, at pulvinar velit pharetra id. Nullam varius massa eu felis placerat, vitae facilisis nibh laoreet. Maecenas posuere quam at semper cursus. Proin tempor massa non tellus bibendum venenatis. Phasellus diam ex, tempor sed lacus et, dapibus ullamcorper erat. Nam vel nisi at justo interdum faucibus. Etiam nec augue urna. Phasellus at turpis vel elit posuere lacinia. Duis tristique sapien ut lorem imperdiet, vitae efficitur augue varius. Nam porttitor nunc a sapien euismod, eu placerat elit venenatis. Curabitur ac elit faucibus odio auctor ornare vitae nec dui. Aliquam sed erat posuere, fringilla libero auctor, eleifend mauris. Vivamus sed convallis nisi. Integer rhoncus, odio ut ornare tempus, arcu magna pellentesque quam, at dictum velit metus a urna. Phasellus vitae pellentesque neque, ac auctor nulla. Nullam imperdiet vulputate urna ut lobortis. Aenean ac justo justo. Ut ut varius ligula. Fusce varius elit et erat sollicitudin laoreet. Integer iaculis ut felis eget efficitur. Aliquam vitae lorem nec lectus finibus faucibus in non nibh. Pellentesque sapien risus, vestibulum auctor erat vel, ultricies sodales orci. Donec id dignissim ipsum.
-<figure class="figure figure-left">
+<!--<figure class="figure figure-left">
 <amp-img src="https://unsplash.it/300/400?image=123" alt="This is the alt text" height="200" width="320" layout="intrinsic"></amp-img>
   <figcaption>This image has a caption but also alt text</figcaption>
-</figure>
+</figure>-->
+{% include image.html position="left" link="https://unsplash.it/300/400?image=123" altText="img" layout="intrinsic" caption="Image Pulled left" %}
 Vestibulum viverra rutrum quam sit amet egestas. Aliquam venenatis nisi eu rhoncus laoreet. Donec convallis tellus tellus, at pulvinar velit pharetra id. Nullam varius massa eu felis placerat, vitae facilisis nibh laoreet. Maecenas posuere quam at semper cursus. Proin tempor massa non tellus bibendum venenatis. Phasellus diam ex, tempor sed lacus et, dapibus ullamcorper erat. Nam vel nisi at justo interdum faucibus. Etiam nec augue urna. Phasellus at turpis vel elit posuere lacinia. Duis tristique sapien ut lorem imperdiet, vitae efficitur augue varius. Nam porttitor nunc a sapien euismod, eu placerat elit venenatis. Curabitur ac elit faucibus odio auctor ornare vitae nec dui. Aliquam sed erat posuere, fringilla libero auctor, eleifend mauris. Vivamus sed convallis nisi.
 
 Quisque volutpat purus arcu, sed vestibulum tortor varius at. Aliquam sagittis quis mauris a imperdiet. Proin sollicitudin nisl leo, quis dictum odio tristique et. Nulla nec malesuada est. Morbi a dignissim purus. Integer turpis urna, efficitur et elit ut, fermentum rhoncus quam. Donec sollicitudin neque mi, et hendrerit dui pellentesque vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ullamcorper enim nunc, non scelerisque ligula eleifend et. Praesent tincidunt eget augue eu vestibulum. Aenean lobortis vel nunc lobortis fermentum. Donec quis faucibus diam. Nullam id leo non ex elementum luctus ac ac risus. Ut commodo elit in bibendum euismod.
@@ -104,7 +106,7 @@ Quisque volutpat purus arcu, sed vestibulum tortor varius at. Aliquam sagittis q
 <amp-img src="https://unsplash.it/800/400?image=123" alt="This image has alt text" width="320" height="200" layout="responsive"></amp-img>
   <figcaption>This image has also caption</figcaption>
 </figure>-->
-{% include image.html position="center" link="https://unsplash.it/800/400?image=123" altText="img" layout="responsive" caption="centered image" %}
+{% include image.html position="center" link="https://unsplash.it/800/400?image=123" altText="img" layout="responsive" caption="Centered Image" %}
 Quisque turpis arcu, lacinia quis odio vitae, pharetra porta ligula. Donec vel dolor vitae dui vulputate lacinia quis vestibulum nunc. Nam a libero laoreet, gravida magna sed, hendrerit velit. Nam lacinia vehicula vulputate. Sed venenatis erat id ante suscipit, vel viverra nibh vestibulum. Pellentesque vitae laoreet ante. Donec nec dictum enim. Phasellus sodales enim vel urna suscipit venenatis. Fusce eget quam purus. Fusce quis posuere dolor. Nam nisi risus, porta vel mollis nec, scelerisque maximus orci. Vestibulum non ligula vitae erat ullamcorper blandit. Cras commodo commodo tellus eget vestibulum. Suspendisse sollicitudin erat vitae nisl euismod venenatis.
 
 ## Pagination and Pager Test
