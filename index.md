@@ -104,6 +104,7 @@ Quisque volutpat purus arcu, sed vestibulum tortor varius at. Aliquam sagittis q
 <amp-img src="https://unsplash.it/800/400?image=123" alt="This image has alt text" width="320" height="200" layout="responsive"></amp-img>
   <figcaption>This image has also caption</figcaption>
 </figure>-->
+{% include image.html position="center" link="https://unsplash.it/800/400?image=123" altText="img" layout="responsive" caption="centered image" %}
 Quisque turpis arcu, lacinia quis odio vitae, pharetra porta ligula. Donec vel dolor vitae dui vulputate lacinia quis vestibulum nunc. Nam a libero laoreet, gravida magna sed, hendrerit velit. Nam lacinia vehicula vulputate. Sed venenatis erat id ante suscipit, vel viverra nibh vestibulum. Pellentesque vitae laoreet ante. Donec nec dictum enim. Phasellus sodales enim vel urna suscipit venenatis. Fusce eget quam purus. Fusce quis posuere dolor. Nam nisi risus, porta vel mollis nec, scelerisque maximus orci. Vestibulum non ligula vitae erat ullamcorper blandit. Cras commodo commodo tellus eget vestibulum. Suspendisse sollicitudin erat vitae nisl euismod venenatis.
 
 ## Pagination and Pager Test
