@@ -16,7 +16,7 @@ title: My Blog
     {% endif %}
     </div>
       <h3><b>{{ post.title }}</b></h3>
-       <span class="amstart-category"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}<a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"> <i class="fa fa-folder-open-o"></i> {{ post.category | replace:'_',' ' }}</a></span>
+       <span class="ampstart-category"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}<a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"> <i class="fa fa-folder-open-o"></i> {{ post.category | replace:'_',' ' }}</a></span>
       <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
          <button class="button read-more"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></button>
    <hr />
