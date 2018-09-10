@@ -1,6 +1,6 @@
 title: Chipprogrammer
 author: Arun K Soman
-url: "https://arunksoman.github.io"
+url: "https://jalakam.github.io"
 baseurl: "/"
 logo: "/static/img/chip.svg"
 markdown: kramdown
@@ -11,5 +11,4 @@ data-ad-client: 7300212199014697
 data-ad-slot: 6015597877
 paginate: 4
 paginate_path: "/blog/page:num/"
-gems: [jekyll-paginate, jekyll-gist]
 disqus_shortname: https-chipprogrammers-github-io-pimate
