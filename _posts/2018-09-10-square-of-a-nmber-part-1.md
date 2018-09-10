@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Maths Trick: Find out Square of a Number 
-date: 2018-05-23 10:07:39 -0700
+title: "Maths Trick: Find out Square of a Number"
+date: 2018-09-19 23:07:39 -0700
 category: Vedic_Mathematics
 img: /static/img/maths2.jpeg
 mathml: true
