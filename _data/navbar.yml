@@ -1,13 +1,13 @@
 - menu: Home
-  link: http://arunksoman.github.io
+  link: http://jalakam.github.io
   icon: home
  
 - menu: Blog
-  link: https://arunksoman.github.io/blog
+  link: https://jalakam.github.io/blog
   icon: pencil
 
 - menu: Docs
-  link: https://arunksoman.github.io/Documentation
+  link: https://jalakam.github.io/Documentation
   icon: file-text
   
 - menu: Github
@@ -19,5 +19,5 @@
   icon: graduation-cap
 
 - menu: Sitemap
-  link: https://arunksoman.github.io/sitemap.xml
+  link: https://jalakam.github.io/sitemap.xml
   icon: rss
