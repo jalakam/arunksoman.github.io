@@ -2,7 +2,7 @@
 layout: default
 ---
 
-    <h1 class="w3-xlarge">Articles by category: {{ page.categories }}</h1>
+    <h1 class="w3-xlarge">Articles by category: {{ page.categories | replace: '_',' ' }}</h1>
     <hr />
     {% for category in site.categories %}
         {% capture category_slug %}{{ category | first }}{% endcapture %}
