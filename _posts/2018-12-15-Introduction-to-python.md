@@ -76,7 +76,7 @@ Namespaces are one honking great idea—let’s do more of those!
 4. **Python is easy to maintain** – is modular for simplicity
 5. **Python is “batteries included”** – provides a large standard library for easy integration into your own programs
 6. **Python is interactive** – has a terminal for debugging and testing snippets of code
-7. **Python is portable **– runs on a wide variety of hardware platforms and has the same interface on all platforms
+7. **Python is portable**– runs on a wide variety of hardware platforms and has the same interface on all platforms
 8. **Python is interpreted** – there is no compilation required
 9. **Python is high-level** – has automatic memory management
 10. **Python is extensible** – allows the addition of low-level modules to the interpreter for customization
