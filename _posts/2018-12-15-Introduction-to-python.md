@@ -1,4 +1,15 @@
-
+---
+layout: post
+title: "Introduction to Python"
+date: 2018-12-15 23:07:39 -0700
+category: Python
+img: /static/img/maths2.jpeg
+color: deep-purple
+theme_color: "#FFFF00"
+tags: 
+- Programming
+- Tutorial
+---
 
 ## Python History
 
