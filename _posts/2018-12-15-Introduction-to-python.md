@@ -26,7 +26,7 @@ Python’s philosophy has always been to make code readable and accessible. That
 ---
 
 {% include MyNote.html note_type="success" span_note="Python Phylosophy"
-text="Beautiful is better than ugly.<br />
+text="<br />Beautiful is better than ugly.<br />
 Explicit is better than implicit.<br />
 Simple is better than complex.<br />
 Complex is better than complicated.<br />
